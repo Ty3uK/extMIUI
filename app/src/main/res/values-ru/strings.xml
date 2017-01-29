@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">О программе</string>
+    <string name="auto_brightness_lcd_backlight_values">Уровни градации подсветки при автояркости</string>
+    <string name="auto_brightness_levels">Уровни градации автояркости</string>
+    <string name="brightness_fix">Уровни автояркости</string>
+    <string name="brightness_fix_description">Исправить шаги автояркости (сделать их более плавными) и минимальный уровень яркости на некоторых устройствах. Вы можете вручную установить уровни градации яркости и подсветки.</string>
+    <string name="contacts">Контакты</string>
+    <string name="extended_reboot">Расширенная перезагрузка</string>
+    <string name="extended_reboot_description">Добавить расширенное меню перезагрузки (обычная, рекавери, загрузчик)</string>
+    <string name="got_it">Понятно</string>
+    <string name="lockscreen_dialer_description">Добавить ярлык для запуска звонилки на экран блокировки. Вы можете вручную указать приложение и экран для запуска.</string>
+    <string name="lockscreen_dialer_package_activity">Запускаемый экран</string>
+    <string name="lockscreen_dialer_package_name">Запускаемое приложение</string>
+    <string name="not_active">Модуль не активирован! Вы должны активировать его в Xposed Installer.</string>
+    <string name="parsing_error">Ошибка обработки чисел. Проверьте, не введены ли буквы или другие символы.</string>
+    <string name="save">Сохранить</string>
+    <string name="saved">Успешно сохранено!</string>
+    <string name="separate_notification_sound">Громкость уведомлений</string>
+    <string name="separate_notification_sound_description">Добавить раздельное управление громкостью звонка и уведомлений. В настройках звука добавляется ползунок громкости уведомлений. Только для MIUI7.</string>
+    <string name="thanks">Благодарности</string>
+    <string name="thanks_to">
+        Спасибо всем разработчикам и пользователям 4pda, которые сделали эти патчи. <a href="http://4pda.ru/forum/index.php?showtopic=540887&amp;st=0#entry28767792">Вы можете найти их здесь.</a>\n\n
+        <a href="http://4pda.ru/forum/index.php?showuser=3515125">vgogafa</a> - за новую иконку приложения\n\n
+        <a href="http://repo.xposed.info/users/rovo89">rovo89</a> - за лучший Xposed framework\n\n
+        <a href="https://miui.su/">Команде MIUI.su</a> - за русский язык для Т9\n\n
+        <a href="http://4pda.ru/forum/index.php?showuser=158025">SolarWarez</a> - за патченный Xposed для MIUI, а так же за огромную помощь с интерфейсом и другими вопросами по коду\n\n
+        <a href="http://4pda.ru/forum/index.php?showuser=3488784">Theos2009</a> - за перевод на украинский язык\n\n
+        Так же спасибо всем тестерам и людям, которые поддерживали меня.
+    </string>
+    <string name="multiline_contact_name">Длинные имена контактов</string>
+    <string name="multiline_contact_name_description">Отключить обрезание контактов с длинными именами и отображать их на нескольких строках.</string>
+    <string name="russian_t9">Русский Т9</string>
+    <string name="russian_t9_description">Добавить поддержку русского языка в поиск контактов T9 в звонилке. После включения/отключения необходимо обновить индекс T9 в настройках приложения Контакты.</string>
+    <string name="donate">Сделать пожертвование</string>
+    <string name="services_not_available">Сервисы Google Play недоступны.</string>
+    <string name="purchased">Спасибо за пожертвование. Это делает мой день чуточку лучше! :)</string>
+    <string name="purchase_error">Упс&#8230; Какие-то неполадки. Вот код ошибки: %d</string>
+    <string name="donate_small">Маленькое пожертвование (~$1)</string>
+    <string name="donate_medium">Среднее пожертвование  (~$2)</string>
+    <string name="donate_large">Большое пожертвование  (~$3)</string>
+    <string name="donate_amount">Выберите размер пожертвования</string>
+    <string name="cancel">Отмена</string>
+    <string name="russian_alphabet">Русский алфавит </string>
+    <string name="russian_alphabet_description">Заменить алфавит в боковой панели контактов на русский. Нажмите на букву или проведите вниз, чтобы ускорить навигацию по контактам.</string>
+    <string name="statusbar_blur">Размытие фона за панелью уведомлений</string>
+    <string name="statusbar_blur_description">Включить или выключить прозрачное размытие фона за панелью уведомлений (только для MIUI7).</string>
+    <string name="statusbar_music">Музыкальный плеер</string>
+    <string name="statusbar_music_description">Исправить открытие плеера из панели уведомлений (из списка запущенных приложений в MIUI8). Теперь можно открыть любой работающий в данный момент плеер, а не только MIUI Music.</string>
+    <string name="select_app">Выбрать приложение</string>
+    <string name="select_package">Выберите приложение</string>
+    <string name="please_wait">Пожалуйста, подождите&#8230;</string>
+    <string name="listing_packages">Построение списка приложений</string>
+    <string name="donate_yamoney">Любая сумма через Яндекс.Деньги</string>
+    <string name="donate_qiwi">Любая сумма через QIWI</string>
+    <string name="donate_qiwi_message">Сделайте пожертвование через QIWI на почту max.karelov@gmail.com. Нажатие на кнопку скопирует почту в буфер обмена и откроет сайт QIWI в браузере.</string>
+    <string name="donate_qiwi_goto">Перейти на сайт QIWI</string>
+    <string name="brightnening_light_debounce">Когда светлеет</string>
+    <string name="darkening_light_debounce">Когда темнеет</string>
+    <string name="light_debounce">Время реакции на смену освещенности в милисекундах (1с == 1000мс)</string>
+    <string name="call_end_desktop">На раб. стол после завершения звонка</string>
+    <string name="call_end_desktop_description">Перейти на рабочий стол после исходящего звонка</string>
+    <string name="statusbar_search_description">Включить или выключить строку поиска в панели уведомлений</string>
+    <string name="statusbar_search">Поиск в панели уведомлений</string>
+    <string name="donate_alert_message">Если вам нравится приложение, пожалуйста, сделайте пожертвование.\nЕсли вы по каким-то причинам не можете (или не хотите) - нажимайте на рекламные объявления.</string>
+    <string name="donate_alert_title">Спасибо за использование extMIUIv7</string>
+    <string name="theme_components_button">Компоненты тем</string>
+    <string name="theme_components_button_description">Добавить кнопку настройки компонентов темы (она исчезает на некоторых версиях прошивкок после подключения к интернету)</string>
+    <string name="enable">Включить</string>
+    <string name="brightness_fix_levels_header">Уровни</string>
+    <string name="select_app_summary">Текущее приложение: %s</string>
+    <string name="lockscreen_dialer">Телефон на локскрине</string>
+    <string name="description">Полезные твики и фиксы для MIUI7/8</string>
+    <string name="external_media_player">Медиаплеер</string>
+    <string name="external_media_player_description">Для пользователей Multirom. Исправить открытие видео и музыки только в стоковх приложениях (например, при выборе внешнего проигрывателя в Kate Mobile).</string>
+    <string name="external_media_player_clear">Сбросить выбранное приложение</string>
+    <string name="animation_scale">Скорость анимации</string>
+    <string name="animation_scale_description">Добавьте свои значения множителей скорости анимации в раздел настроек для разработчиков.</string>
+    <string name="animation_scale_window">Анимация окон</string>
+    <string name="animation_scale_transition">Анимация перехода</string>
+    <string name="animation_scale_duration">Длительность анимации</string>
+    <string name="current_value">Текущее значение: %s</string>
+    <string name="changelog_title">Список изменений</string>
+    <string name="main_tweaks">Общие твики</string>
+    <string name="toggle_list">Переключатели</string>
+    <string name="nav_module">Модуль</string>
+    <string name="nav_tweaks">Твики</string>
+    <string name="toggle_list_update">Обновить</string>
+    <string name="toggle_list_reduce_size">Уменьшить размер переключателя</string>
+    <string name="toggle_list_description">Отключите ненужные переключатели в панели уведомлений. Кроме того, вы можете уменьшить размер каждого переключателя.</string>
+    <string name="ram_fix">Свободное ОЗУ</string>
+    <string name="ram_fix_description">Исправить количество свободного ОЗУ на прошивках от Multirom</string>
+    <string name="saved_reboot">Успешно сохранено! Перезагрузите телефон.</string>
+    <string name="changelog_message">+ Новый материальный дизайн\n\n+ Добавлена возможность применять некоторые твики без перезагрузки\n\n+ Добавлен фикс свободного ОЗУ\n\n+ Добавлена возможность регулировать количество столбцов переключателей\n\n* Исправлена работа твика многострочного имени на MIUI8\n\n* Исправлена работа твика "На рабочий стол после звонка"\n\n* Исправлена работа твика автояркости\n\n* Исправлена работа твика медиапроигрывателей для прошивок Multirom</string>
+    <string name="not_miui">Вы используете не MIUI. Приложение будет закрыто.</string>
+    <string name="toggle_list_count">Количество переключателей в строке</string>
+    <string name="toggle_list_more">Больше 11</string>
+    <string name="toggle_list_more_description">Показывать все выбранные переключатели в совмещенной шторке</string>
+    <string name="external_media_player_video">Выбрать видео проигрыватель</string>
+    <string name="external_media_player_music">Выбрать музыкальный проигрыватель</string>
+    <string name="switch_theme">Использовать темную тему</string>
+    <string name="switch_theme_message">Для применения темы приложение будет перезапущено</string>
+</resources>

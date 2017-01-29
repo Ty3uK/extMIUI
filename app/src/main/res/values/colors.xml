@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB6901</color>
+    <color name="colorPrimaryDark">#FB6901</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="descriptionColorTitle">#424242</color>
+    <color name="descriptionColorSecondary">#9E9E9E</color>
+    <color name="preference_fallback_accent_color">@color/descriptionColorTitle</color>
+
+    <color name="colorPrimary_DarkTheme">#607D8B</color>
+    <color name="colorPrimaryDark_DarkTheme">#607D8B</color>
+    <color name="colorAccent_DarkTheme">#448AFF</color>
+</resources>

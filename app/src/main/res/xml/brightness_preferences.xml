@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:title="@string/brightness_fix"
+        android:summary="@string/brightness_fix_description"
+        android:enabled="false"
+        android:layout="@layout/description_preference_layout"/>
+
+    <SwitchPreferenceCompat
+        android:key="brightness_fix"
+        android:title="@string/enable"/>
+
+    <PreferenceCategory
+        android:key="brightness_fix_levels"
+        android:title="@string/brightness_fix_levels_header"
+        android:dependency="brightness_fix">
+
+        <EditTextPreference
+            android:key="brightness_fix_autoBrightnessLevels"
+            android:title="@string/auto_brightness_levels"
+            android:digits="0,1,2,3,4,5,6,7,8,9,/"
+            android:inputType="number" />
+        <EditTextPreference
+            android:key="brightness_fix_autoBrightnessLcdBacklightValues"
+            android:title="@string/auto_brightness_lcd_backlight_values"
+            android:digits="0,1,2,3,4,5,6,7,8,9,/"
+            android:inputType="number" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="brightness_fix_debounce"
+        android:title="@string/light_debounce"
+        android:dependency="brightness_fix">
+
+        <EditTextPreference
+            android:key="brightness_fix_brighteningLightDebounce"
+            android:title="@string/brightnening_light_debounce"
+            android:digits="0,1,2,3,4,5,6,7,8,9,/"
+            android:inputType="number" />
+        <EditTextPreference
+            android:key="brightness_fix_darkeningLightDebounce"
+            android:title="@string/darkening_light_debounce"
+            android:digits="0,1,2,3,4,5,6,7,8,9,/"
+            android:inputType="number" />
+    </PreferenceCategory>
+</PreferenceScreen>

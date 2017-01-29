@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">`
+
+    <SwitchPreferenceCompat
+        android:key="separate_notification_sound"
+        android:title="@string/separate_notification_sound"
+        android:summary="@string/separate_notification_sound_description" />
+    <SwitchPreferenceCompat
+        android:key="extended_reboot"
+        android:title="@string/extended_reboot"
+        android:summary="@string/extended_reboot_description" />
+    <SwitchPreferenceCompat
+        android:key="multiline_contact_name"
+        android:title="@string/multiline_contact_name"
+        android:summary="@string/multiline_contact_name_description" />
+    <SwitchPreferenceCompat
+        android:key="russian_t9"
+        android:title="@string/russian_t9"
+        android:summary="@string/russian_t9_description" />
+    <SwitchPreferenceCompat
+        android:key="russian_alphabet"
+        android:title="@string/russian_alphabet"
+        android:summary="@string/russian_alphabet_description" />
+    <SwitchPreferenceCompat
+        android:key="statusbar_blur"
+        android:title="@string/statusbar_blur"
+        android:summary="@string/statusbar_blur_description" />
+    <SwitchPreferenceCompat
+        android:key="statusbar_search"
+        android:title="@string/statusbar_search"
+        android:summary="@string/statusbar_search_description" />
+    <SwitchPreferenceCompat
+        android:key="call_end_desktop"
+        android:title="@string/call_end_desktop"
+        android:summary="@string/call_end_desktop_description" />
+    <SwitchPreferenceCompat
+        android:key="theme_components_button"
+        android:title="@string/theme_components_button"
+        android:summary="@string/theme_components_button_description" />
+    <SwitchPreferenceCompat
+        android:key="ram_fix"
+        android:title="@string/ram_fix"
+        android:summary="@string/ram_fix_description" />
+
+</android.support.v7.preference.PreferenceScreen>

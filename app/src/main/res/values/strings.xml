@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name" translatable="false">extMIUI</string>
+    <string name="description">Useful tweaks and fixes for MIUI7/8</string>
+    <string name="about">About</string>
+    <string name="contacts">Contacts</string>
+    <string name="thanks">Thanks</string>
+    <string name="thanks_to">Thanks for all 4pda users and developers, who made this patches. <a href="http://4pda.ru/forum/index.php?showtopic=540887&amp;st=0#entry28767792">You can find them here</a>\n\n<a href="http://4pda.ru/forum/index.php?showuser=3515125">vgogafa</a> - for new app icon\n\n<a href="http://repo.xposed.info/users/rovo89">rovo89</a> - for the greatest Xposed framework\n\n<a href="https://miui.su/">MIUI.su command</a> - for russian language in T9 patch\n\n<a href="http://4pda.ru/forum/index.php?showuser=158025">SolarWarez</a> - patched Xposed for MIUI and huge help with interface and other code stuff\n\n<a href="http://4pda.ru/forum/index.php?showuser=3488784">Theos2009</a> - for Ukrainian localization\n\nThanks to all testers and people, who supports me.</string>
+    <string name="not_active">Module isn\'t activated! You should activate it in Xposed Installer app.</string>
+    <string name="got_it">Got it</string>
+
+    <string name="separate_notification_sound">Notification volume</string>
+    <string name="separate_notification_sound_description">Add separated notification volume control in settings and unlink it from ringer volume control. Adds a notification volume slider in sound settings. Only for MIUI7.</string>
+
+    <string name="extended_reboot">Extended reboot</string>
+    <string name="extended_reboot_description">Add 3 way reboot (normal, recovery, fastboot) menu</string>
+
+    <string name="brightness_fix">Brightness levels</string>
+    <string name="brightness_fix_description">Fix automatic brightness steps (more smooth) and minimal brightness level on some devices. You can customize brightness and backlight levels gradation.</string>
+    <string name="auto_brightness_levels">Auto brightness levels</string>
+    <string name="auto_brightness_lcd_backlight_values">Auto brightness LCD backlight values</string>
+
+    <string name="lockscreen_dialer_package_name">Dialer package name</string>
+    <string name="lockscreen_dialer_package_activity">Dialer activity (with package name)</string>
+    <string name="lockscreen_dialer_description">Add shortcut for launch dialer to lockscreen. You can customize dialer package name and starting activity.</string>
+
+    <string name="parsing_error">Error processing numbers. Check to see if the letters or other characters entered.</string>
+    <string name="saved">Saved successfully! </string>
+
+    <string name="save">Save</string>
+    <string name="multiline_contact_name_description">Disable trimming contacts with long names and display its on multiple lines.</string>
+    <string name="russian_t9_description">Add support for russian language in dialer T9 contacts search. After enable/disable you should rebuild T9 index in Contacts app settings.</string>
+    <string name="donate">Donate me</string>
+    <string name="services_not_available">Google Play Services is not available.</string>
+    <string name="purchased">Thanks for donation! It\'s make me happy :)</string>
+    <string name="purchase_error">Oops&#8230; Something went wrong. Here is error code: %d</string>
+    <string name="donate_small">Small donation (~$1)</string>
+    <string name="donate_medium">Medium donation (~$2)</string>
+    <string name="donate_large">Large donation (~$3)</string>
+    <string name="donate_amount">Select donation amount</string>
+    <string name="cancel">Cancel</string>
+    <string name="russian_alphabet">Russian alphabet</string>
+    <string name="russian_alphabet_description">Replace alphabet in contacts app sidebar with russian. Press on letter or swipe down for quick navigation through russian contacts.</string>
+    <string name="statusbar_blur">Notification panel blur</string>
+    <string name="statusbar_blur_description">Enable or disable transparent bluring of background behind notification panel (only for MIUI7).</string>
+    <string name="statusbar_music">Music player</string>
+    <string name="statusbar_music_description">Fix launching music player from the notification bar (from the recent apps for MIUI8). You can access any running player, not only MIUI music.</string>
+    <string name="select_app">Select application</string>
+    <string name="select_package">Select package</string>
+    <string name="please_wait">Please, wait&#8230;</string>
+    <string name="listing_packages">Building packages list</string>
+    <string name="donate_yamoney">Any amount with Yandex.Money</string>
+    <string name="donate_qiwi">Any amount with QIWI</string>
+    <string name="donate_qiwi_message">Donate with QIWI to max.karelov@gmail.com. Click on button will copy email to clipboard and open site in browser.</string>
+    <string name="donate_qiwi_goto">Go to QIWI site</string>
+    <string name="brightnening_light_debounce">When brightens</string>
+    <string name="darkening_light_debounce">When it gets dark</string>
+    <string name="light_debounce">The reaction time for changing light conditions in miliseconds (1s == 1000ms)</string>
+    <string name="call_end_desktop">Go home after call end</string>
+    <string name="call_end_desktop_description">Go to home screen after outgoing call</string>
+    <string name="statusbar_search_description">Enable or disable search bar in notification panel</string>
+    <string name="statusbar_search">Notification panel search</string>
+    <string name="donate_alert_title">Thanks for using extMIUIv7</string>
+    <string name="donate_alert_message">If you like the app, please make a donation.\nIf you for some reason can\'t (or don\'t want) - click on the ads.</string>
+    <string name="theme_components_button_description">Add customize button to theme app (it disappears on some firmware versions after connection to internet)</string>
+    <string name="enable">Enable</string>
+    <string name="brightness_fix_levels_header">Levels</string>
+    <string name="select_app_summary">Current application: %s</string>
+    <string name="multiline_contact_name">Long contact names</string>
+    <string name="russian_t9">Russian T9</string>
+    <string name="theme_components_button">Theme components</string>
+    <string name="lockscreen_dialer">Lockscreen dialer</string>
+    <string name="external_media_player">Media player</string>
+    <string name="external_media_player_description">For Multirom users. Fix opening video and music only in stock apps (eg, using external player in Kate Mobile).</string>
+    <string name="external_media_player_clear">Clear selected application</string>
+    <string name="animation_scale">Animation speed</string>
+    <string name="animation_scale_description">Add your own animation speed multiplier to development settings.</string>
+    <string name="animation_scale_window">Window animation</string>
+    <string name="animation_scale_transition">Transition animation</string>
+    <string name="animation_scale_duration">Animation duration</string>
+    <string name="current_value">Current value: %s</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="navigation_drawer_open" translatable="false">navigation_drawer_open</string>
+    <string name="navigation_drawer_close" translatable="false">navigation_drawer_close</string>
+    <string name="main_tweaks">General tweaks</string>
+    <string name="toggle_list">Toggles</string>
+    <string name="nav_tweaks">Tweaks</string>
+    <string name="nav_module">Module</string>
+    <string name="toggle_list_update">Update</string>
+    <string name="toggle_list_reduce_size">Reduce toggle size</string>
+    <string name="toggle_list_description">Disable unnecessary toggles from notification panel. Also you can reduce size of each toggle.</string>
+    <string name="ram_fix">Free RAM</string>
+    <string name="ram_fix_description">Fix free RAM size on Multirom firmwares</string>
+    <string name="saved_reboot">Saved successfully! Reboot your phone.</string>
+    <string name="changelog_message">+ New material design\n\n+ Added ability to apply some tweaks without reboot\n\n+ Added free RAM fix\n\n+ Added ability to change toggle columns count\n\n* Fixed multiline contacts name on MIUI8\n\n* Fixed tweak "Go home after call end"\n\n* Fixed "Brightness fix" tweak\n\n* Fixed "Media player" tweak for Multirom users
+    </string>
+    <string name="not_miui">You running non-MIUI ROM. Application will be closed.</string>
+    <string name="toggle_list_count">Toggles count in row</string>
+    <string name="toggle_list_more">More than 11</string>
+    <string name="toggle_list_more_description">Show all selected toggles in combined notification panel</string>
+    <string name="external_media_player_video">Select video player</string>
+    <string name="external_media_player_music">Select music player</string>
+    <string name="switch_theme">Use dark theme</string>
+    <string name="switch_theme_message">For changing theme application will be restarted</string>
+</resources>

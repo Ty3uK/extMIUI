@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="media_player_description"
+        android:title="@string/external_media_player"
+        android:summary="@string/external_media_player_description"
+        android:enabled="false"
+        android:layout="@layout/description_preference_layout"/>
+
+    <SwitchPreferenceCompat
+        android:key="media_player"
+        android:title="@string/enable"/>
+
+    <Preference
+        android:key="media_player_video_app"
+        android:title="@string/external_media_player_video"
+        android:dependency="media_player"
+        android:persistent="false"/>
+
+    <Preference
+        android:key="media_player_music_app"
+        android:title="@string/external_media_player_music"
+        android:dependency="media_player"
+        android:persistent="false"/>
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<resources>
+
+    <attr name="side_nav_bar_background" format="reference"/>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="side_nav_bar_background">@drawable/side_nav_bar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Dark" parent="Base.Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary_DarkTheme</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_DarkTheme</item>
+        <item name="colorAccent">@color/colorAccent_DarkTheme</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="side_nav_bar_background">@drawable/side_nav_bar_dark</item>
+    </style>
+
+    <style name="AppTheme.Dark.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="AppTheme.DescriptionPreferenceTitle" parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColorSecondary">@color/descriptionColorTitle</item>
+        <item name="android:textColor">@color/descriptionColorTitle</item>
+    </style>
+
+    <style name="AppTheme.DescriptionPreferenceSecondary" parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:textColorSecondary">@color/descriptionColorSecondary</item>
+        <item name="android:textColor">@color/descriptionColorSecondary</item>
+    </style>
+</resources>

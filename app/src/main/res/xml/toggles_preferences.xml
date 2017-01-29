@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="toggle_list_description"
+        android:title="@string/toggle_list"
+        android:summary="@string/toggle_list_description"
+        android:enabled="false"
+        android:layout="@layout/description_preference_layout"/>
+
+    <SwitchPreferenceCompat
+        android:key="toggle_list"
+        android:title="@string/enable"/>
+
+    <ListPreference
+        android:key="toggle_list_count"
+        android:entries="@array/toggle_list_count_entries"
+        android:entryValues="@array/toggle_list_count_entries"
+        android:dependency="toggle_list"
+        android:title="@string/toggle_list_count" />
+
+    <SwitchPreferenceCompat
+        android:key="toggle_list_more"
+        android:dependency="toggle_list"
+        android:title="@string/toggle_list_more"
+        android:summary="@string/toggle_list_more_description"
+        />
+
+    <!--<SwitchPreferenceCompat-->
+        <!--android:key="toggle_list_reduce_size"-->
+        <!--android:title="@string/toggle_list_reduce_size" />z-->
+
+    <PreferenceCategory
+        android:key="toggle_list_category"
+        android:title="@string/toggle_list"
+        android:dependency="toggle_list" />
+
+</PreferenceScreen>
