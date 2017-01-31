@@ -6,14 +6,19 @@ android:
     - tools
     - tools
     - platform-tools
-    - build-tools-24.0.2
-    - android-24
+    - build-tools-25.0.2
+    - android-25
     - extra-android-m2repository
     - extra-google-m2repository
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq libstdc++6:i386 lib32z1 expect
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+
 cache:
   directories:
     - $HOME/.gradle/caches/
